@@ -1,0 +1,44 @@
+.card {
+  position: relative;
+  border-radius: var(--border-raduis);
+  background-color: var(--card-background-color);
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  &-content {
+    margin-bottom: calc(var(--element-gap) / 2);
+    padding: calc(var(--element-gap) / 2);
+    font-size: 0.75rem;
+    color: var(--card-text-color);
+
+    &:only-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-edit {
+    position: absolute;
+    display: none;
+    color: var(--card-text-color);
+    top: 5px;
+    right: 5px;
+  }
+
+  &:hover {
+    .card-edit {
+      display: inline-block;
+    }
+  }
+
+  &-edit-field {
+    width: 100%;
+    border: none;
+  }
+
+  &-edit-cancel {
+    color: var(--card-text-color);
+  }
+}

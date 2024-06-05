@@ -1,0 +1,14 @@
+.board {
+  &-header {
+    padding: var(--element-gap);
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+  }
+
+  &-content {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--element-gap);
+    padding: var(--element-gap);
+  }
+}

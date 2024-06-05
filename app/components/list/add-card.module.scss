@@ -1,0 +1,19 @@
+.add-card {
+  width: 100%;
+  border-radius: var(--border-raduis);
+  background-color: var(--list-background-color);
+
+  &-button,
+  &-cancel {
+    color: var(--text-color);
+  }
+}
+
+.card-name {
+  margin-bottom: var(--element-gap);
+
+  &-field {
+    display: block;
+    width: 100%;
+  }
+}

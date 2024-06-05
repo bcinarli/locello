@@ -1,0 +1,15 @@
+.list {
+  width: var(--column-width);
+  padding: calc(var(--element-gap) / 2);
+  border-radius: var(--border-raduis);
+  background-color: var(--list-background-color);
+
+  &-title {
+    margin-bottom: var(--element-gap);
+    color: var(--list-title-color);
+  }
+
+  &-add-card {
+    color: var(--list-title-color);
+  }
+}

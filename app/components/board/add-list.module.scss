@@ -1,0 +1,18 @@
+.add-list {
+  width: var(--column-width);
+  padding: calc(var(--element-gap) / 2);
+  border-radius: var(--border-raduis);
+  background-color: var(--list-background-color);
+
+  &-cancel {
+    color: var(--text-color);
+  }
+}
+
+.list-name {
+  margin-bottom: var(--element-gap);
+
+  &-field {
+    width: 100%;
+  }
+}

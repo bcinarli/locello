@@ -1,0 +1,53 @@
+@import "variables";
+
+*:where(:not(iframe, canvas, img, svg, video, div, header, footer, aside, nav, strong, input):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: var(--base-font-size) / var(--base-line-height) var(--base-font);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--base-title-font);
+  font-weight: bold;
+}
+
+a,
+button,
+label {
+  cursor: pointer;
+}
+
+.svg-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  stroke: currentColor;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+[hidden] {
+  display: none;
+}

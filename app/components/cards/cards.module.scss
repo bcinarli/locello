@@ -1,0 +1,9 @@
+.cards {
+  min-height: 50px;
+  border-radius: var(--border-raduis);
+  color: var(--card-text-color);
+
+  &-drag-active {
+    border: dotted 1px;
+  }
+}

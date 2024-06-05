@@ -1,0 +1,8 @@
+.textarea {
+  padding: var(--input-gap);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-raduis);
+  font-size: var(--input-font-size);
+  background-color: var(--field-background-color);
+  color: var(--text-color);
+}

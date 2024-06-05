@@ -1,0 +1,30 @@
+:root {
+  /** sizing **/
+  --base-font-size: 22px;
+  --base-line-height: 1.4;
+  --base-title-size: 2rem;
+  --base-subtitle-size: 1.5rem;
+  --border-raduis: 4px;
+  --element-gap: 1rem;
+  --input-gap: 0.25rem;
+  --input-font-size: 0.75rem;
+  --column-width: 275px;
+
+  /** typography **/
+  --base-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --base-title-font: Georgia, serif;
+
+  /** colors **/
+  --primary-color: #579dff;
+  --primary-color-hover: #85b8ff;
+  --text-color: #b6c2cf;
+  --background-color: #ededed;
+  --header-background-color: #161a1d;
+  --header-text-color: #9fadbc;
+  --list-title-color: var(--text-color);
+  --list-background-color: #101204;
+  --card-background-color: #22272b;
+  --card-text-color: var(--text-color);
+  --border-color: var(--text-color);
+  --field-background-color: var(--card-background-color)
+}

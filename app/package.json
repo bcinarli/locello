@@ -1,0 +1,10 @@
+{
+  "name": "@locello/app",
+  "version": "1.0.0",
+  "dependencies": {
+    "@locello/ui": "0.0.0",
+    "@locello/utils": "0.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
